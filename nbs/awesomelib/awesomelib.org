@@ -1,0 +1,16 @@
+#+PROPERTY: header-args:python :shebang "#!/usr/bin/env python3" :eval no-export :noweb no-export :mkdirp yes
+#+PROPERTY: header-args:jupyter-python :shebang "#!/usr/bin/env python3" :eval no-export :noweb no-export :mkdirp yes
+
+* lib
+
+#+BEGIN_SRC python :noweb-ref "" :session test
+  def myfun(apa):
+      "do whatever"
+      return ""
+#+END_SRC
+
+#+RESULTS:
+
+#+BEGIN_SRC python :noweb-ref ""
+
+#+END_SRC
